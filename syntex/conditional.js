@@ -1,3 +1,6 @@
+var args = process.argv;
+console.log(args[2]);
+
 console.log('A');
 console.log('B');
 //if(true)
@@ -9,7 +12,7 @@ console.log('B');
 //  console.log('C2');
 //}
 
-if(false) //true
+if(args[2] === '1') //true
 {//실행
   console.log('C1');
 }
